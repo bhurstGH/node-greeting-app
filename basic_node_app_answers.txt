@@ -1,0 +1,8 @@
+1. What is a Node module?
+A: A function or set of functions you want to make available to other people or programs, like a library.
+
+2.What is the main difference between exports and module.exports?
+A: exports is merely a reference to module.exports.
+
+3. Why is using exports recommended?
+A: It favors immutability. Since it is just a reference to module.exports, any reassignment does not effect module.exports itself. A bit like using something such as .map() does not effect the original array.
